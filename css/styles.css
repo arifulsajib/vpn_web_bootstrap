@@ -43,6 +43,9 @@ body {
   margin: 0 3%;
   flex: 0 0 auto;
 }
+.scrolling-wrapper .card:hover {
+  border: 1px solid #ac1b34;
+}
 
 @media only screen and (max-width: 600px) {
   .scrolling-wrapper .card {
