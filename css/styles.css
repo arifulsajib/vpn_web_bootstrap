@@ -8,3 +8,44 @@ body {
 .bg-lightred {
   background-color: rgb(247, 204, 204);
 }
+
+/* Horizontal scrolling cards */
+.scrolling-wrapper {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  padding: 2% 0;
+
+  /* custom horizontal scrollbar */
+  &::-webkit-scrollbar {
+    height: 12px;
+    /* display: none */
+  }
+
+  &::-webkit-scrollbar-track {
+    border-radius: 92px;
+    background: #bacfd6;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    border-radius: 92px;
+    background: #e13955;
+  }
+
+  &::-webkit-scrollbar-thumb:hover {
+    background: #ac1b34;
+  }
+}
+
+.scrolling-wrapper .card {
+  width: 25%;
+  margin: 0 3%;
+  flex: 0 0 auto;
+}
+
+@media only screen and (max-width: 600px) {
+  .scrolling-wrapper .card {
+    width: 50%;
+  }
+}
