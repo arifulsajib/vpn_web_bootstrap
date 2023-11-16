@@ -14,7 +14,7 @@
   <body>
     <!-- header -->
     <header>
-      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <nav class="navbar navbar-expand-lg fixed-top bg-white bg-opacity-50" style="backdrop-filter: blur(10px)">
         <div class="container">
           <a class="navbar-brand" href="#">
             <img src="./images/Logo.png" alt="" />
@@ -25,19 +25,19 @@
           <div class="collapse navbar-collapse" id="navbarText">
             <ul class="navbar-nav m-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">About</a>
+                <a class="nav-link active" aria-current="page" href="#banner">About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Features</a>
+                <a class="nav-link" href="#features">Features</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Pricing</a>
+                <a class="nav-link" href="#plans">Pricing</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Testimonial</a>
+                <a class="nav-link" href="#reviews">Testimonial</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Help</a>
+                <a class="nav-link" href="#subscribe">Help</a>
               </li>
             </ul>
             <span class="navbar-text">
@@ -49,7 +49,7 @@
       </nav>
     </header>
     <!-- banner section -->
-    <section class="container mt-5">
+    <section id="banner" class="container mt-5 pt-5">
       <div class="row g-3">
         <div class="col-12 col-md-5 d-flex align-items-center justify-content-center order-1 order-lg-0">
           <div class="container text-center text-md-start">
@@ -98,7 +98,7 @@
     </section>
 
     <!-- Features section -->
-    <section class="container mt-5">
+    <section id="features" class="container mt-5">
       <div class="row g-3">
         <div class="col-12 col-md-6">
           <img class="img-fluid" src="./images/features.png" alt="" />
@@ -121,7 +121,7 @@
     </section>
 
     <!-- Plan section -->
-    <section class="container mt-5 mb-5">
+    <section id="plans" class="container mt-5 mb-5">
       <h1 class="text-center">Choose Your Plan</h1>
       <p class="text-center text-secondary">Let's choose the package that is best for you and explore it happily and cheerfully.</p>
 
@@ -218,7 +218,7 @@
     </section>
 
     <!-- Partners Section -->
-    <section class="container mt-5 mb-5 p-3">
+    <section id="partners" class="container mt-5 mb-5 p-3">
       <div class="row shadow-lg g-3">
         <div class="col-4 col-md-3 col-lg-2 mx-auto">
           <img class="img-fluid" src="./images/partners/1. netflix.png" alt="" />
@@ -239,7 +239,7 @@
     </section>
 
     <!-- Review section -->
-    <section class="mt-5 container">
+    <section id="reviews" class="mt-5 container">
       <h1 class="text-center mb-0 pt-3">Trusted by Thousands of </h1>
       <h1 class="text-center">Happy Customer</h1>
       <p class="text-secondary text-center w-75 mx-auto">These are the stories of our customers who have joined us with great pleasure when using this crazy feature.</p>
@@ -356,7 +356,7 @@
     </section>
 
     <!-- Subscribe Section -->
-    <section class="container mt-5 mb-5 p-3">
+    <section id="subscribe" class="container mt-5 mb-5 p-3">
       <div class="d-flex justify-content-between shadow-lg px-3">
         <div>
           <h1>Subscribe Now for</h1>
